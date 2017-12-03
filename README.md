@@ -34,7 +34,7 @@ Yang dibutuhin :
 
 lagi-lagi , kita pake element boostrap, seperti ini
 ```
-<form>
+<form id="form-login">
   <div class="form-group">
     <label for="email">Email address:</label>
     <input type="email" class="form-control" id="email">
@@ -46,7 +46,7 @@ lagi-lagi , kita pake element boostrap, seperti ini
   <div class="checkbox">
     <label><input type="checkbox"> Remember me</label>
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-default">LOGIN</button>
 </form>
 ```
 
@@ -73,7 +73,7 @@ terus jadi begini lengkapnya :
 <body>
 
 <div class="container-fluid">
-  <form>
+  <form id="form-login">
     <div class="form-group">
       <label for="email">Email address:</label>
       <input type="email" class="form-control" id="email">
@@ -85,7 +85,7 @@ terus jadi begini lengkapnya :
     <div class="checkbox">
       <label><input type="checkbox"> Remember me</label>
     </div>
-    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="submit" class="btn btn-default">LOGIN</button>
   </form>
 </div>
 
@@ -106,9 +106,57 @@ Sebelum lebih jauh, mari pahami penggunaan javascipt,  javascript selalu berada 
 jadi, mari kita mulai tulis javascript di file index.html yang udah dibuat.
 
 Perhatikan ada tag ```</body>```
+pasteini 
+```
+<script type="text/javscript">
+  .... kode javascript
+</script>
+```
+sebelum ```</body>```
 
+jadi beigni : 
 
+```
+  <script type="text/javscript">
+    .... kode javascript
+  </script>
+</body
+```
 
+lanjut, kita tadi sudah buat form input login, terdapat dua input , ini input buat username/email :
+```
+	<div class="form-group">
+      <label for="email">Email address:</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    ```
+ ini input buat password :
+```
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+```
+
+dan ini adalah button submit nya : 
+
+```
+    <button type="submit" class="btn btn-default">LOGIN</button>
+```
+
+Jadi ada TIGA element, ada input email, input password dan button LOGIN
+
+alur LOGIN nya adalah, ketika user mengklik button LOGIN, maka sistem akan mengecek VALUE INPUT EMAIL dan VALUE INPUT PASSWORD, apakah cocok dengan yang ada di sistem, ketika cocok, maka keluar alert dengan isi pesan :" LOGIN BERHASIL".
+
+jika tidak, maka keluar alert dengan isi pesan "LOGIN GAGAL, CHECK EMAIL DAN PASSWORD ANDA"
+
+mari kita buat event js ketika user mengklik button LOGIN (ingat sisipkan ini diantara  ```` <script type="text/javscript"></script> ```):
+```
+$('#form-login').on("submit",function(e){
+	e.preventDefault();
+})
+```
+di atas adalah event js yang akan berjalan, ketika form login di klik LOGIN, karena klik login sama saja dengan menjalankan event submit 
 
 
 
