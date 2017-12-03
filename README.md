@@ -232,7 +232,7 @@ sampai disini sudah selesai , jadi ini kode lengkapnya :
     <button type="submit" class="btn btn-default">LOGIN</button>
   </form>
 </div>
-<script type="text/javsacript">
+<script type="text/javascript">
 $('#form-login').on("submit",function(e){
 	e.preventDefault();
     var email = $('#email').val();
