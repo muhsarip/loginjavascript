@@ -42,7 +42,7 @@ lagi-lagi , kita pake element boostrap, seperti ini
   </div>
   <div class="form-group">
     <label for="pwd">Password:</label>
-    <input type="password" class="form-control" id="pwd">
+    <input type="password" class="form-control" id="password">
   </div>
   <div class="checkbox">
     <label><input type="checkbox"> Remember me</label>
@@ -82,7 +82,7 @@ terus jadi begini lengkapnya :
     </div>
     <div class="form-group">
       <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd">
+      <input type="password" class="form-control" id="password">
     </div>
     <div class="checkbox">
       <label><input type="checkbox"> Remember me</label>
@@ -136,7 +136,7 @@ lanjut, kita tadi sudah buat form input login, terdapat dua input , ini input bu
 ```
     <div class="form-group">
       <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd">
+      <input type="password" class="form-control" id="password">
     </div>
 ```
 
@@ -227,7 +227,7 @@ sampai disini sudah selesai , jadi ini kode lengkapnya :
     </div>
     <div class="form-group">
       <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd">
+      <input type="password" class="form-control" id="password">
     </div>
     <div class="checkbox">
       <label><input type="checkbox"> Remember me</label>
