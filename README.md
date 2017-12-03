@@ -50,8 +50,13 @@ lagi-lagi , kita pake element boostrap, seperti ini
 </form>
 ```
 
+copy koding diatas, paste kan di sini
 
-
+```
+<div class="container-fluid">
+  __paste disini
+</div>
+```
 
 
 
