@@ -8,7 +8,7 @@ Yang dibutuhin :
 
 
 Karena kita mau tampilan login yang kece, kita pake bootstrap. Buat file index.html , paste kode ini :
-
+<code>
 &lt;!DOCTYPE html&gt;
 &lt;html lang="en"&gt;
 &lt;head&gt;
@@ -28,6 +28,7 @@ Karena kita mau tampilan login yang kece, kita pake bootstrap. Buat file index.h
 
 &lt;/body&gt;
 &lt;/html&gt;
+</code>
 
 
 
