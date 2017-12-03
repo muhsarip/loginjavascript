@@ -159,6 +159,16 @@ $('#form-login').on("submit",function(e){
 ```
 di atas adalah event js yang akan berjalan, ketika form login di klik LOGIN, karena klik login sama saja dengan menjalankan event submit 
 
+lanjut... mari kita definisiin varibale input email dan variable input password , seperti ini : 
+
+```
+$('#form-login').on("submit",function(e){
+	e.preventDefault();
+    var email = $('#email').val();
+    var password = $('#password').val();
+})
+```
+
 
 
 
