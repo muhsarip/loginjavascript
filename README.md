@@ -1,7 +1,9 @@
 ## Belajar Membuat Login dengan Javascript
 
 Belajar bikin website, ngga harus pake PHP melulu. ada yang namanye Javascript. Nah ini nih yang lagi booming
+<div style="text-align:center;width:100%">
 <img src="https://im4.ezgif.com/tmp/ezgif-4-e0d07617d7.gif" style="width:100%;height:auto"/>
+	</div> <br>
 Yang dibutuhin :
 1. editor : sublime, notepad++ atau vscode
 2. kopi
