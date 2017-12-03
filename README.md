@@ -169,7 +169,89 @@ $('#form-login').on("submit",function(e){
 })
 ```
 
+lalu buat lah kondisional dengan IF , kita buat dlu variable email dan password admin :
+```
+$('#form-login').on("submit",function(e){
+	e.preventDefault();
+    var email = $('#email').val();
+    var password = $('#password').val();
+    
+    var email_admin ="admin@admin.com";
+    var password_admin = "123456";
+})
+```
+mudah bukan bkin variablenya? jadi email admin adalah admin@admin.com dan passwordnya adalah 123456
 
+mari kita buat konidisonal IF nya :
+```
+$('#form-login').on("submit",function(e){
+	e.preventDefault();
+    var email = $('#email').val();
+    var password = $('#password').val();
+    
+    var email_admin ="admin@admin.com";
+    var password_admin = "123456";
+    
+    if(email == email_admin && password == password_admin){
+    	alert("LOGIN BERHASIL");
+    }else{
+    	alert("LOGIN GAGAL, CHECK EMAIL DAN PASSWORD ANDA");
+    }
+    
+})
+```
+Nah, pada IF ini, jika  email yg diketik user sama dengan isi varibale email_admin, dan password yang diketik user sama dengan isi variabel password_admin , maka login BERHASIL, jika tidak sama salah satunya atau dua-duanya, maka login GAGAL.
+
+sampai disini sudah selesai , jadi ini kode lengkapnya :
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container-fluid">
+  <form id="form-login">
+    <div class="form-group">
+      <label for="email">Email address:</label>
+      <input type="email" class="form-control" id="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+    <div class="checkbox">
+      <label><input type="checkbox"> Remember me</label>
+    </div>
+    <button type="submit" class="btn btn-default">LOGIN</button>
+  </form>
+</div>
+<script type="text/javsacript">
+$('#form-login').on("submit",function(e){
+	e.preventDefault();
+    var email = $('#email').val();
+    var password = $('#password').val();
+    
+    var email_admin ="admin@admin.com";
+    var password_admin = "123456";
+    
+    if(email == email_admin && password == password_admin){
+    	alert("LOGIN BERHASIL");
+    }else{
+    	alert("LOGIN GAGAL, CHECK EMAIL DAN PASSWORD ANDA");
+    }
+    
+})
+</script>
+</body>
+</html>
+```
 
 
 
