@@ -2,7 +2,7 @@
 
 Belajar bikin website, ngga harus pake PHP melulu. ada yang namanye Javascript. Nah ini nih yang lagi booming
 <div style="text-align:center;width:100%">
-<img src="https://github.com/muhsarip/loginjavascript/blob/master/loginjavascript.gif" style="width:100%;height:auto;margin:auto"/>
+<img src="" style="width:100%;height:auto;margin:auto"/>
 	</div> <br>
 Yang dibutuhin :
 1. editor : sublime, notepad++ atau vscode
