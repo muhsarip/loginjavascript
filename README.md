@@ -1,4 +1,4 @@
-# Belajar Membuat Login dengan Javascript
+## Belajar Membuat Login dengan Javascript
 
 Belajar bikin website, ngga harus pake PHP melulu. ada yang namanye Javascript. Nah ini nih yang lagi booming
 
@@ -7,7 +7,7 @@ Yang dibutuhin :
 2. kopi
 
 
-Karena kita mau tampilan login yang kece, kita pake bootstrap. Buat file index.html , paste kode ini :
+### STEP 1 : Karena kita mau tampilan login yang kece, kita pake bootstrap. Buat file index.html , paste kode ini :
 
 ```
 <!DOCTYPE html>
@@ -30,7 +30,28 @@ Karena kita mau tampilan login yang kece, kita pake bootstrap. Buat file index.h
 </body>
 </html>
 ```
-dsdsdsds
+### STEP 2 : Buat form input usernamae dan password
+
+lagi-lagi , kita pake element boostrap, seperti ini
+```
+<form>
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+```
+
+
+
 
 
 
