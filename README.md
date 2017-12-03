@@ -8,27 +8,26 @@ Yang dibutuhin :
 
 
 Karena kita mau tampilan login yang kece, kita pake bootstrap. Buat file index.html , paste kode ini :
-<code>
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;title&gt;Bootstrap Example&lt;/title&gt;
-  &lt;meta charset="utf-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
-  &lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"&gt;
-  &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"&gt;&lt;/script&gt;
-  &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"&gt;&lt;/script&gt;
-&lt;/head&gt;
-&lt;body&gt;
 
-&lt;div class="container-fluid"&gt;
-  &lt;h1&gt;My First Bootstrap Page&lt;/h1&gt;
-  &lt;p&gt;This is some text.&lt;/p&gt; 
-&lt;/div&gt;
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-&lt;/body&gt;
-&lt;/html&gt;
-</code>
+<div class="container-fluid">
+  <h1>My First Bootstrap Page</h1>
+  <p>This is some text.</p> 
+</div>
+
+</body>
+</html>```
 
 
 
