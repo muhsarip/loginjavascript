@@ -144,6 +144,7 @@ dan ini adalah button submit nya :
     <button type="submit" class="btn btn-default">LOGIN</button>
 ```
 
+
 Jadi ada TIGA element, ada input email, input password dan button LOGIN
 
 alur LOGIN nya adalah, ketika user mengklik button LOGIN, maka sistem akan mengecek VALUE INPUT EMAIL dan VALUE INPUT PASSWORD, apakah cocok dengan yang ada di sistem, ketika cocok, maka keluar alert dengan isi pesan :" LOGIN BERHASIL".
