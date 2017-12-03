@@ -9,7 +9,7 @@ Yang dibutuhin :
 
 Karena kita mau tampilan login yang kece, kita pake bootstrap. Buat file index.html , paste kode ini :
 
-**<!DOCTYPE html>
+<code><!DOCTYPE html>
 <html lang="en">
 <head>
   <title>Bootstrap Example</title>
@@ -27,7 +27,7 @@ Karena kita mau tampilan login yang kece, kita pake bootstrap. Buat file index.h
 </div>
 
 </body>
-</html>**
+</html></code>
 
 
 
