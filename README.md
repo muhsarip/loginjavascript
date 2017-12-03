@@ -129,7 +129,7 @@ lanjut, kita tadi sudah buat form input login, terdapat dua input , ini input bu
       <label for="email">Email address:</label>
       <input type="email" class="form-control" id="email">
     </div>
-    ```
+```
  ini input buat password :
 ```
     <div class="form-group">
