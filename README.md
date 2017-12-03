@@ -95,6 +95,17 @@ terus jadi begini lengkapnya :
 
 nah , sekarang halaman login form nya sudah jadi 
 
+### STEP 3 : Membuat logika login dengan javascriptnya
+
+Sebelum lebih jauh, mari pahami penggunaan javascipt,  javascript selalu berada dalam tag buka dan tutup sepeteri di bawah ini :
+```
+<script type="text/javscript">
+  .... kode javascript
+</script>
+```
+jadi, mari kita mulai tulis javascript di file index.html yang udah dibuat.
+
+Perhatikan ada tag ```</body>```
 
 
 
