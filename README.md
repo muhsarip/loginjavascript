@@ -34,6 +34,7 @@ Yang dibutuhin :
 
 lagi-lagi , kita pake element boostrap, seperti ini
 ```
+<h1>Login Form</h1>
 <form id="form-login">
   <div class="form-group">
     <label for="email">Email address:</label>
@@ -73,6 +74,7 @@ terus jadi begini lengkapnya :
 <body>
 
 <div class="container-fluid">
+  <h1>Login Form</h1>
   <form id="form-login">
     <div class="form-group">
       <label for="email">Email address:</label>
@@ -217,6 +219,7 @@ sampai disini sudah selesai , jadi ini kode lengkapnya :
 <body>
 
 <div class="container-fluid">
+  <h1>Login Form</h1>
   <form id="form-login">
     <div class="form-group">
       <label for="email">Email address:</label>
@@ -252,17 +255,3 @@ $('#form-login').on("submit",function(e){
 </body>
 </html>
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
