@@ -99,7 +99,7 @@ nah , sekarang halaman login form nya sudah jadi
 
 Sebelum lebih jauh, mari pahami penggunaan javascipt,  javascript selalu berada dalam tag buka dan tutup sepeteri di bawah ini :
 ```
-<script type="text/javscript">
+<script type="text/javascript">
   .... kode javascript
 </script>
 ```
@@ -108,7 +108,7 @@ jadi, mari kita mulai tulis javascript di file index.html yang udah dibuat.
 Perhatikan ada tag ```</body>```
 pasteini 
 ```
-<script type="text/javscript">
+<script type="text/javascript">
   .... kode javascript
 </script>
 ```
@@ -117,7 +117,7 @@ sebelum ```</body>```
 jadi beigni : 
 
 ```
-  <script type="text/javscript">
+  <script type="text/javascript">
     .... kode javascript
   </script>
 </body
@@ -151,7 +151,7 @@ alur LOGIN nya adalah, ketika user mengklik button LOGIN, maka sistem akan menge
 
 jika tidak, maka keluar alert dengan isi pesan "LOGIN GAGAL, CHECK EMAIL DAN PASSWORD ANDA"
 
-mari kita buat event js ketika user mengklik button LOGIN (ingat sisipkan ini diantara  ```` <script type="text/javscript"></script> ```):
+mari kita buat event js ketika user mengklik button LOGIN (ingat sisipkan ini diantara  ```` <script type="text/javascript"></script> ```):
 ```
 $('#form-login').on("submit",function(e){
 	e.preventDefault();
